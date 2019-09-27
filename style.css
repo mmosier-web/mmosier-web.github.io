@@ -1,0 +1,65 @@
+.container{
+    height: auto;
+    width: 80%;
+    margin:6rem auto;
+
+}   
+.header{
+    text-align: center;
+    background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+    background-size: cover;
+    font-size: 4rem;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: gold;
+    margin: 2rem auto;
+    padding: 2rem;
+    
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+
+}
+
+
+body{
+     background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+    background-size: cover;
+}
+
+img{
+    display: grid;
+    border-radius: 40%;
+    margin:2rem auto;
+    width: 330px;
+    height: 330px;   
+}
+
+
+nav a{
+    text-align: center;
+    color: gold;
+    padding: 1rem 2 rem;
+    border-top:url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+    border-bottom:url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+
+}
+nav a:hover{
+    
+    border:1rem solid gold;
+    box-shadow: 0.3rem
+}
+
+.footer{
+    text-align: center;
+    background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+    background-size: cover;
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: gold;
+    margin: 2rem auto;
+    
+}
