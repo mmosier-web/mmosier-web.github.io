@@ -1,65 +1,110 @@
-.container{
-    height: auto;
-    width: 80%;
-    margin:6rem auto;
-
-}   
-.header{
-    text-align: center;
-    background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
-    background-size: cover;
-    font-size: 4rem;
-    font-style: oblique;
+* {
     font-family: sans-serif;
-    color: gold;
-    margin: 2rem auto;
-    padding: 2rem;
-    
+    line-height: 1.4em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-nav{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
-
+html {
+    font-size: 16px;
+    margin-top: 3em;
 }
 
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
 
-body{
-     background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
+body {
+    color:gold;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/151/795/non_2x/hallway-matrix-background-vector.jpg);
     background-size: cover;
 }
+#image {
+    display: block;
+    margin: 0 auto 0 auto;
+}
 
-img{
+header {
+    padding: 4em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+nav a {
+    padding: .5em 2em;
+    color: gold;
+}
+
+nav a:hover {
+    background: black;
+}
+
+section {
+    margin: 1em 0;
+    padding: 3em;
+    min-height: 20em;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+#aboutMe {
     display: grid;
-    border-radius: 40%;
-    margin:2rem auto;
-    width: 330px;
-    height: 330px;   
+    grid-template-rows: auto;
 }
 
+#aboutMe {
+    width: 100%;
+    border: 1rem solid rgb(134, 125, 72);
+}
 
-nav a{
+#myProjects {
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+#myProjects {
+    border: 1rem solid rgb(134, 125, 72);
+}
+
+#contactInfo {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+#contactInfo {
+
+    border: 1rem solid rgb(134, 125, 72);
+}
+section > p {
+    margin: 1em;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: rgb(134, 125, 72);
+    padding: 1em 0;
     text-align: center;
-    color: gold;
-    padding: 1rem 2 rem;
-    border-top:url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
-    border-bottom:url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
-
-}
-nav a:hover{
-    
-    border:1rem solid gold;
-    box-shadow: 0.3rem
-}
-
-.footer{
-    text-align: center;
-    background-image: url(https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg);
-    background-size: cover;
-    font-size: 1rem;
-    font-style: oblique;
-    font-family: sans-serif;
-    color: gold;
-    margin: 2rem auto;
-    
 }
