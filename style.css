@@ -19,12 +19,17 @@ footer {
 
 body {
     color:gold;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/151/795/non_2x/hallway-matrix-background-vector.jpg);
+    background-image: url(/Images/computer.jpg);
     background-size: cover;
 }
 #image {
     display: block;
     margin: 0 auto 0 auto;
+    height: 460px;
+    width: 320px;
+    border-radius: 5.5em;
+    border: 1rem solid rgb(134, 125, 72);
+    
 }
 
 header {
@@ -49,12 +54,13 @@ nav {
 }
 
 nav a {
+
     padding: .5em 2em;
     color: gold;
 }
 
 nav a:hover {
-    background: black;
+    background: green;
 }
 
 section {
@@ -108,3 +114,11 @@ footer {
     padding: 1em 0;
     text-align: center;
 }
+
+#one a{
+    color: greenyellow;
+}
+
+
+
+
