@@ -26,14 +26,12 @@ body {
     display: block;
     margin: 0 auto 0 auto;
     height: 460px;
-    width: 320px;
-    border-radius: 5.5em;
-    border: 1rem solid black;
-    
+    width: 260px;
+    border-radius: 3rem;
 }
 
 header {
-    padding: 4em;
+    padding: 3em;
     text-align: center;
 }
 
@@ -46,7 +44,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-image: url(/Images/images.jpg);
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -64,7 +62,7 @@ nav a:hover {
 }
 
 section {
-    background-color: black;
+    background-image: url(/Images/images.jpg);
     margin: 1em 0;
     padding: 3em;
     min-height: 20em;
@@ -112,13 +110,17 @@ section > p {
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background:black;
+    background-image: url(/Images/images.jpg);
     padding: 1em 0;
     text-align: center;
 }
 
 #one a{
     color: greenyellow;
+}
+
+.contact :link{
+    color: goldenrod;
 }
 
 
