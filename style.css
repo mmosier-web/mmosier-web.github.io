@@ -28,7 +28,7 @@ body {
     height: 460px;
     width: 320px;
     border-radius: 5.5em;
-    border: 1rem solid rgb(63, 160, 76);
+    border: 1rem solid black;
     
 }
 
@@ -56,7 +56,7 @@ nav {
 nav a {
 
     padding: .5em 2em;
-    color: rgb(63, 160, 76);
+    color:rgb(60, 255, 0);
 }
 
 nav a:hover {
@@ -64,6 +64,7 @@ nav a:hover {
 }
 
 section {
+    background-color: black;
     margin: 1em 0;
     padding: 3em;
     min-height: 20em;
@@ -80,7 +81,8 @@ section ul {
 
 #aboutMe {
     width: 100%;
-    border: 1rem solid rgb(63, 160, 76);
+    border-radius: 3rem;
+
 }
 
 #myProjects {
@@ -90,7 +92,7 @@ section ul {
 }
 
 #myProjects {
-    border: 1rem solid rgb(63, 160, 76);
+ border-radius: 3rem;
 }
 
 #contactInfo {
@@ -101,7 +103,7 @@ section ul {
 
 #contactInfo {
 
-    border: 1rem solid rgb(63, 160, 76);
+ border-radius: 3rem;
 }
 section > p {
     margin: 1em;
@@ -110,7 +112,7 @@ section > p {
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background: rgb(63, 160, 76);
+    background:black;
     padding: 1em 0;
     text-align: center;
 }
